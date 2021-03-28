@@ -1,0 +1,40 @@
+{
+  "name": "imapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./lib/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LrFlds/imAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LrFlds/imAPI/issues"
+  },
+  "homepage": "https://github.com/LrFlds/imAPI#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.35",
+    "@types/nodemailer": "^6.4.1",
+    "@types/nodemailer-direct-transport": "^1.0.31",
+    "@types/nodemailer-smtp-transport": "^2.7.4",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "development": "0.0.6",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "express": "^4.17.1",
+    "express-json": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "nodemailer": "^6.5.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  }
+}

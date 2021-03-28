@@ -1,0 +1,47 @@
+creation client : POST : localhost:3000/client/create 
+{
+    "Name": "Jacques",
+    "FirstName": "Mengha",
+    "Email": "jacquesmengha@gmail.com",
+    "Password":"jacques2018" ,
+    "Panier": []
+}
+
+login : POST: localhost:3000/client/login
+{
+    "Email": "jacquesmengha@mail.com",
+    "Password":"jacques2018" 
+}
+
+getAllClient : GET : localhost:3000/client/getAll
+
+Delete : POST : localhost:3000/client/delete
+{
+    "Email":"monadressemail@gmail.com"
+}
+
+Pour tester la fonction updatePaswwordClient : 
+il y a une verification de token avant la fonction, il faut donc d'abord se loguer puis copier/coller le token. 
+Dans la partie Headers de postman, dans "key" il faut taper Authorization et dans la value : 
+"bearer token "
+puis utiliser la route :
+
+localhost:3001/client/update/603dfc015dcd6f1afc135af6 (id de mon compte )
+{
+    "Password":"Laura080690!",
+    "NewPass":"Laura080690&"
+}
+
+
+restclient 
+
+
+
+create Store : POST : localhost:3001/store/create 
+{
+    
+    "Name": "Je suis un test Store",
+    "Email": "store@gmail.com",
+    "Password": "Jesuisuntest1212",
+    "Panier": ["604743d29480dc293067dec4"]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="../public/css/style.css">
+    </head>
+    <body>
+        <header>
+
+            <div class="box-row p"> 
+                <a class="back-arrow-modified" href="../views/basket.html"><img  src="../public/ico/back-arrow.png" alt="back"></a>                    
+                <img class="logo-header" src="../public/ico/logo-diantaba.svg" alt="Logo Diantaba">
+                <h3>DIANTABA</h3>              
+            </div>
+            <div class="box-link">                
+                <div class="form-link">
+                    <a href="../views/profil.html"><img src="../public/ico/user.png" alt=""></a>
+                    <p>Compte</p>
+                </div>
+                <div class="form-link">
+                    <a href="../views/summary.html"><img src="../public/ico/shopping.png" alt=""></a>
+                    <p>Panier</p>
+                </div>              
+            </div>
+
+        </header>
+
+        <section class="main-container-form">
+            <h2>Création d'un article</h2>
+            <div class="container-form">
+                <form action="basket.html">
+                    <div class="box-form">
+                        <label for="articleName">Nom de l'article</label>
+                        <input type="text" name="articleName" id="articleName" class="input-create-article">
+                    </div>
+                    <div class="box-form">
+                        <label for="quantity">Quantité</label>
+                        <input type="number" name="quantity" id="quantity" class="input-create-article">
+                    </div>
+                    <div class="box-form">
+                        <label for="description">Description</label>
+                        <input type="textarea" name="description" id="description" class="input-create-article">
+                    </div>
+                    <div class="box-form">
+                        <label for="cost">Prix</label>
+                        <input type="number" name="cost" id="cost" class="input-create-article">
+                    </div>
+                    <button class="btn-add-article">Ajouter</button>
+                </form>
+            </div>          
+        </section>
+
+
+    </body>
+</html>
